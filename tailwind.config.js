@@ -1,15 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./public/*.{html,js}"],
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      maxWidth: {
-        "8xl": "96rem",
-      },
-      spacing: {
-        128: "32rem",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
